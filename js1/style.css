@@ -1,0 +1,74 @@
+.form {
+    padding: 5px;
+    margin: 10px;
+    margin-left: 10%;
+    width: 30%;
+    height: 20px;
+    border-radius: 5px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    text-size-adjust: 15px;
+}
+
+.btn {
+    width: 120px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 55px;
+    font-size: 15px;
+    vertical-align: middle;
+    display: table-cell;
+    background-color: #dddd;
+}
+
+.btn:hover {
+    background-image: none;
+    background-color: greenyellow;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.form1 {
+    padding: 5px;
+    margin-left: 1%;
+    width: 15%;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.passform {
+    padding: 5px;
+    margin: 10px;
+    margin-left: 7.5%;
+    width: 15%;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn p {
+    float: left;
+    height: 100%;
+    width: 70%;
+}
+
+.icon {
+    background-repeat: no-repeat;
+    width: 30px;
+    margin-top: 5px;
+    float: left;
+    height: 30px;
+}
+
+.formx {
+    margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}

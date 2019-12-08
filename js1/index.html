@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- HTML template courtesy of CodeConquest.com -->
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title> Site for JS</title>
+    <script src="app.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <script>
+        dz2("Hello World");
+    </script>
+    <a href="id1" id="link1">Direct to main page</a>
+    </br>
+    <a href="http://www.google.com/">Google</a>
+    </br>
+    <img src="./img/cu.jpg" height="200" width="250" />
+    <img src="./img/flower.jpg" height="250" width="200" />
+    <script>
+        img_count();
+        ankor_count();
+        get_width_pic();
+        get_max_width();
+        get_sum_height();
+    </script>
+    <form name="form1" class="formx" id="id_form1">
+        <input type="text" id="form1" placeholder="s1" class="form" />
+        <button type="button" class="btn" id="btn1" onclick="namecurrent(1);">
+        <img class="icon" src="./img/icon8.png" width="30px" height="30px" />
+        <p>ShowName </p>
+        </button>
+        <button class="btn" type="button" id="btnt1" onclick="id_form(1);">
+        <img class="icon" src="./img/icon8.png" width="30px" height="30px" />
+        <p>Show ID </p>
+        </button>
+        <button class="btn" type="reset" id="btnx1" onclick="this.form.reset();">
+            <img class="icon" src="./img/icon8.png" width="30px" height="30px" />
+            <p>Reset Text </p>
+        </button>
+    </form>
+    <form name="form2" class="formx" id="id_form2">
+        <input type="text" id="form2" placeholder="s2" class="form" />
+        <button type="button" class="btn" id="btn2" onclick="namecurrent(2);">
+            <img class="icon" src="./img/icon8.png" width="30px" height="30px" />
+            <p>ShowName </p>
+        </button>
+        <button type="button" class="btn" onclick="id_form(2);" id="btnt2"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Show ID </p>
+        </button>
+        <button type="button" class="btn" id="btntx2" onclick="this.form.reset();"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Reset Text </p>
+        </button>
+
+    </form>
+    <form name="form3" class="formx" id="id_form3">
+        <input type="text" id="form3" placeholder="s3" class="form" />
+        <button type="button" class="btn" id="btn3" onclick="namecurrent(3);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>ShowName </p>
+        </button>
+        <button type="button" class="btn" id="btnt3" onclick="id_form(3);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Show ID </p>
+        </button>
+        <button type="button" class="btn" id="btn1" onclick="this.form.reset();"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Reset Text </p>
+        </button>
+    </form>
+    <form name="form4" class="formx" id="id_form4">
+        <input type="text" id="form4" placeholder="s4" class="form" />
+        <button type="button" class="btn" id="btn4" onclick="namecurrent(4);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>ShowName </p>
+        </button>
+        <button type="button" class="btn" id="btnt4" onclick="id_form(4);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Show ID </p>
+        </button>
+        <button type="button" class="btn" id="btn1" onclick="this.form.reset();"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Reset Text </p>
+        </button>
+    </form>
+    <form name="form5" class="formx" id="id_form5">
+        <input type="text" id="form5" placeholder="ID Username" class="form1" />
+        <input type="password" id="form5" placeholder="password" class="passform" />
+        <button type="button" class="btn" id="btn5" onclick="namecurrent(5);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>ShowName </p>
+        </button>
+        <button type="button" class="btn" id="btnt5" onclick="id_form(5);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Show ID </p>
+        </button>
+        <button type="button" class="btn" id="btn1" onclick="this.form.reset();"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Reset Text </p>
+        </button>
+    </form>
+    <form name="form6" class="formx" id="id_form6">
+        <input type="text" id="form6" placeholder="s6" class="form" />
+        <button type="button" class="btn" id="btn6" onclick="namecurrent(6);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>ShowName </p>
+        </button>
+        <button type="button" class="btn" id="btnt6" onclick="id_form(6);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Show ID </p>
+        </button>
+        <button type="button" class="btn" id="btn1" onclick="this.form.reset();"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Reset Text </p>
+        </button>
+    </form>
+    <form name="form7" class="formx" id="id_form7">
+        <input type="text" id="form7" placeholder="s7" class="form" />
+        <button type="button" class="btn" id="btn7" onclick="namecurrent(7);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>ShowName </p>
+        </button>
+        <button type="button" class="btn" id="btnt7" onclick="id_form(7);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Show ID </p>
+        </button>
+        <button type="button" class="btn" id="btn1" onclick="this.form.reset();"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Reset Text </p>
+        </button>
+    </form>
+    <form name="form8" class="formx" id="id_form8">
+        <input type="text" id="form8" placeholder="s8" class="form" />
+        <button type="button" class="btn" id="btn8" onclick="namecurrent(8);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>ShowName </p>
+        </button>
+        <button type="button" class="btn" id="btnt8" onclick="id_form(8);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Show ID </p>
+        </button>
+        <button type="button" class="btn" id="btn1" onclick="this.form.reset();"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Reset Text </p>
+        </button>
+    </form>
+    <form name="form9" class="formx" id="id_form9">
+        <input type="text" id="form9" placeholder="s9" class="form" />
+        <button type="button" class="btn" id="btn9" onclick="namecurrent(9);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>ShowName </p>
+        </button>
+        <button type="button" class="btn" id="btnt9" onclick="id_form(9);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Show ID </p>
+        </button>
+        <button type="button" class="btn" id="btn1" onclick="this.form.reset();"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Reset Text </p>
+        </button>
+    </form>
+    <form name="form10" class="formx" id="id_form10">
+        <input type="text" id="form10" placeholder="s10" class="form" />
+        <button type="button" class="btn" id="btn10" onclick="namecurrent(10);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>ShowName </p>
+        </button>
+        <button type="button" class="btn" id="btnt10" onclick="id_form(10);"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Show ID </p>
+        </button>
+        <button type="button" class="btn" id="btn1" onclick="this.form.reset();"><img class="icon" src="./img/icon8.png" width="30px"
+                height="30px" />
+            <p>Reset Text </p>
+        </button>
+    </form>
+
+
+    <script>
+        get_form_name();
+    </script>
+
+    <div id="link">
+        <a href="http://www.google.com/">Google</a>
+        <a href="http://www.facebook.com/">Facebook</a>
+        <a href="http://www.google.com/">Google</a>
+        <a href="http://www.yahoo.com/">Yahoo</a>
+        <a href="http://www.yandex.com/">Yandex</a>
+        <a href="http://www.google.com/">Google</a>
+        <a href="http://www.yandex.com/">Yandex</a>
+        <a href="http://www.google.com/">Google</a>
+        <a href="http://www.facebook.com/">Facebook</a>
+        <a href="http://www.google.com/">Google</a>
+        <a href="http://www.yandex.com/">Yandex</a>
+
+        <script>
+            link_table();
+        </script>
+
+    </div>
+
+</body>
+
+</html>

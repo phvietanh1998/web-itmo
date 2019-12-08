@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url(123.jpg);
+	background-size: 100%
+}
+
+@font-face {
+    font-family: Lemon Tuesday; 
+    src: local(Lemon), url(18224.ttf); 
+   }
+
+h2 {
+	margin-top: 14px;
+}
+
+#header {
+	height: 11%;
+	width: 100%;
+	background-color: yellow;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	font-family: Lemon, 'Lemon Tuesday';
+	font-size: 23px;
+}
+
+#body {
+	height: 81%;
+	width: 50%;
+	background-color: orangered;
+	position: absolute;
+	top: 11%;
+	left: 25%;
+}
+
+#content {
+	padding: 0 13px 0 10px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+#footer {
+	height: 8.1%;
+	width: 100%;
+	background-color: red;
+	position: absolute;
+	top: 92%;
+	left: 0;
+	color: black;
+	text-indent: 40px;
+}
+
+#Block_1 {
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	background-color: darkgreen;
+	width: 20%;
+	height: 20%;
+	background-size: 100%;
+	z-index: 1;
+}
+
+#Block_2 {
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	background-color: greenyellow;
+	width: 20%;
+	height: 20%;
+	background-size: 100%;
+	z-index: 2;
+}
