@@ -1,0 +1,140 @@
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 1000px;
+	background-image: url(images/bg.jpg);
+	background-position: top center;
+	background-size: cover;
+	margin-top: -500px;
+}
+
+.header h1 {
+	margin-top: 570px;
+	color: white;
+	text-align: center;
+	font-size: 90px;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.header p {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	margin-bottom: 35px;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	padding:  6px 28px 6px 28px;
+	margin-left: 46%;
+}
+
+.nav {
+	position: absolute;
+	top: 500px;
+	left: 0;
+	right: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #000000;
+}
+
+.nav ul {
+	margin-left: 120px;
+}
+
+.nav li {
+	display: block;
+	float: left;
+	list-style-type: none;
+	color: white;
+	margin: -13px 0px 30px 0px;
+	height: 32px;
+	padding-top: 13px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.nav li:hover {
+	background-color: #477AFA;
+}
+
+.main {
+	position: absolute;
+	top: 545px;
+	height: 250px;
+	left: 8%;
+	padding-top: 25px;
+}
+
+.main img {
+	float: left;
+	margin: 30px 60px 30px 30px;
+}
+
+.jumbotron {
+	position: absolute;
+	top: 795px;
+	background-image: url(images/jumbotron_bg.jpg);
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 330px;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 150px;
+}
+
+.jumbotron h2 {
+	text-align: right;
+	margin-right: 130px;
+	color: white;
+	font-weight: bolder;
+
+}
+
+.jumbotron p {
+	text-align: right;
+	margin-right: 130px;
+	color: white;
+	margin-bottom: 25px;
+}
+
+.jumbotron a {
+	color: white;
+	text-decoration: none;
+	background-color: #477AFA;
+	padding:  6px 28px 6px 28px;
+	margin-right: 130px;
+	float: right;
+}
+
+.footer {
+	position: absolute;
+	top: 1275px;
+	background-color: black;
+	left: 0;
+	right: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: white;
+    height: 45px;
+    text-indent: 120px;
+}
+
+.container {
+	font-family: arial;
+}
