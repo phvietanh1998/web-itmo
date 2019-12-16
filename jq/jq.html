@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+div{
+	display: inline-block;
+	width: 75px;
+	height: 100px;
+	margin-right: 20px;
+	background-color: green;
+}
+	</style>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".hide").click(function(){
+				$("div").slideUp(2000);
+			});
+			$(".show").click(function(){
+				$("div").slideDown(1000);
+			});
+			$(".refresh").click(function(){
+				// alert("URL"+ $(this).attr("href","https://inxaoc.github.io/example/ajax-1.html"))
+				// $("div").attr("href","https://inxaoc.github.io/example/ajax-1.html")
+				$("#refresh").load("https://inxaoc.github.io/example/ajax-1.html");
+			});
+			$(".send").click(function(){
+				$.getJSON("https://inxaoc.github.io/example/ajax.json", function(data) 
+						{
+							var array = [];
+							if (!$(".my-new-list").text()); 
+								{
+									array = data_to_array(data);
+			$("<tr/>", { 
+				class: "my-new-list",
+				html: items.join("")}).appendTo("body");
+								}
+						});
+										});
+var items = []
+function data_to_array(data) {
+var array = [];
+for (var key in data) {
+var value = data[key];
+if (typeof value === "string") {
+array[key] = value;
+items.push(
+"<tr><td id='" + key + "'>" + " " + key + ": " + value + "</td></tr>"
+);
+} else {
+array[key] = data_to_array(value);
+}
+}
+return array;
+}
+			});
+	</script>
+</head>
+<body>
+	<button class="hide">Close</button>
+	<button class="show">Show</button>
+	<button class="refresh" id="refresh">Refresh</button>
+	<button class="send">Send</button>
+	<hr>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<br>
+	<a href="https://inxaoc.github.io/example/ajax-1.html">Ga</a>
+</body>
+</html>
